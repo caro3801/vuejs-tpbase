@@ -47,10 +47,11 @@ module.exports = {
 vue add bootstrap-vue
 
 # extensions vs code
-prettier
-vetur
+* prettier
+* vetur
+* chrome debugger
 # extensions chrome
-chrome debugger
+* vue devtools
 
 # settings eslint
 ```json
