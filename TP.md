@@ -1,6 +1,9 @@
 # Installer vue cli 
+
+```bash
 npm install -g @vue/cli
 npx @vue-cli
+```
 
 # creation du projet vuejs-tp
 
@@ -9,19 +12,21 @@ npx @vue-cli
 sinon : 
 https://cli.vuejs.org/guide/creating-a-project.html#vue-create
 
-vue create vuejs-tp
+`vue create vuejs-tp`
 ( options : babel, eslint, sass)
 
-cd vuejs-tp
+`cd vuejs-tp`
 
-(vue ui)
+(prof : montrer `vue ui`)
 
-git init 
+`git init `
 ...
 
 
 # start development server
+```bash
 npm run serve
+```
 ->localhost:8080
 
 in vscode: lint on save (prettier)
@@ -29,7 +34,7 @@ in vscode: lint on save (prettier)
 1108 package / 360 secs + add deps 122 packages / 113s
 
 # sourcemap
->vue.config.js
+Dans `vue.config.js` 
 ```js
 module.exports = {
   configureWebpack: {
@@ -41,12 +46,14 @@ module.exports = {
 # Utiliser bootstrap-vue
 vue add bootstrap-vue
 
-#extensions
+# extensions vs code
 prettier
 vetur
+# extensions chrome
 chrome debugger
-# settings eslint
 
+# settings eslint
+```json
 {
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "editor.detectIndentation": false,
@@ -74,3 +81,4 @@ chrome debugger
         }
     ]
 }
+```
